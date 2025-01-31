@@ -2,9 +2,17 @@ package com.example.dslist.dto;
 
 import com.example.dslist.entities.Game;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+
+
 public class GameMinDTO {
 
-	
+
 	private Long id;
 	private String title;
 	private Integer year;
