@@ -10,8 +10,6 @@ import com.example.dslist.dto.GameMinDTO;
 import com.example.dslist.entities.Game;
 import com.example.dslist.repositories.GameRepository;
 
-import jakarta.transaction.Transactional;
-
 @Service
 public class GameService {
 
